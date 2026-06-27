@@ -1,0 +1,288 @@
+/* =====================================================
+   AI Engineering Workbench
+   style.css
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#0d1117;
+
+    color:#f8f9fa;
+
+    font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+
+}
+
+/* ==========================================
+   Navbar
+========================================== */
+
+.navbar{
+
+    border-bottom:2px solid #21262d;
+
+}
+
+/* ==========================================
+   Cards
+========================================== */
+
+.card{
+
+    background:#161b22;
+
+    color:#f8f9fa;
+
+    border:1px solid #30363d;
+
+    border-radius:12px;
+
+}
+
+.card-header{
+
+    background:#21262d;
+
+    border-bottom:1px solid #30363d;
+
+    font-weight:bold;
+
+    font-size:18px;
+
+}
+
+/* ==========================================
+   Dashboard Metrics
+========================================== */
+
+.metric-card{
+
+    transition:0.3s;
+
+    border-left:5px solid #00d084;
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 20px rgba(0,208,132,.25);
+
+}
+
+.metric-card h6{
+
+    color:#8b949e;
+
+    font-weight:600;
+
+    margin-bottom:10px;
+
+}
+
+.metric-card h2{
+
+    color:#00d084;
+
+    font-weight:bold;
+
+}
+
+/* ==========================================
+   Form Controls
+========================================== */
+
+.form-control{
+
+    background:#0d1117;
+
+    color:white;
+
+    border:1px solid #30363d;
+
+}
+
+.form-control:focus{
+
+    background:#0d1117;
+
+    color:white;
+
+    border-color:#00d084;
+
+    box-shadow:0 0 0 .2rem rgba(0,208,132,.25);
+
+}
+
+.form-control::placeholder{
+
+    color:#6c757d;
+
+}
+
+/* ==========================================
+   Buttons
+========================================== */
+
+.btn-success{
+
+    background:#00d084;
+
+    border:none;
+
+    font-weight:bold;
+
+}
+
+.btn-success:hover{
+
+    background:#00b36b;
+
+}
+
+/* ==========================================
+   Tables
+========================================== */
+
+.table{
+
+    color:white;
+
+}
+
+.table-dark{
+
+    --bs-table-bg:#161b22;
+
+    --bs-table-border-color:#30363d;
+
+}
+
+/* ==========================================
+   Lists
+========================================== */
+
+.list-group-item{
+
+    background:#161b22;
+
+    color:white;
+
+    border:1px solid #30363d;
+
+}
+
+.list-group-item:hover{
+
+    background:#21262d;
+
+}
+
+/* ==========================================
+   Code Blocks
+========================================== */
+
+pre{
+
+    background:#0d1117;
+
+    color:#00ff99;
+
+    padding:15px;
+
+    border-radius:8px;
+
+    border:1px solid #30363d;
+
+    overflow:auto;
+
+    font-size:14px;
+
+}
+
+/* ==========================================
+   Headings
+========================================== */
+
+h2,h3,h4{
+
+    color:#58a6ff;
+
+}
+
+hr{
+
+    border-color:#30363d;
+
+}
+
+/* ==========================================
+   Output Panel
+========================================== */
+
+#result{
+
+    line-height:1.7;
+
+}
+
+#result ul{
+
+    padding-left:20px;
+
+}
+
+#result li{
+
+    margin-bottom:8px;
+
+}
+
+/* ==========================================
+   Badges
+========================================== */
+
+.badge{
+
+    font-size:14px;
+
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media(max-width:768px){
+
+.metric-card{
+
+    margin-bottom:15px;
+
+}
+
+.card-header{
+
+    font-size:16px;
+
+}
+
+h2{
+
+    font-size:26px;
+
+}
+
+.btn{
+
+    width:100%;
+
+}
+
+}
